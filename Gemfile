@@ -12,3 +12,4 @@ gem 'bootstrap-sass', '~> 3.0.3.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'paperclip', '~> 3.0'
+
