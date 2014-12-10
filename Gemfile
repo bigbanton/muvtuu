@@ -13,3 +13,10 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'paperclip', '~> 3.0'
 
+gem 'tzinfo-data', platforms: [:mingw, :mswin]
+group :development, :test do
+  gem 'sqlite3'
+end
+group :production do
+  gem 'pg'
+end
