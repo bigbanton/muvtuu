@@ -11,7 +11,8 @@ gem 'bootstrap-sass', '~> 3.0.3.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'paperclip', '~> 3.0'
-
+gem 'paperclip-dropbox', '>= 1.1.7'
+gem 'figaro'
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 group :development, :test do
   gem 'sqlite3'
