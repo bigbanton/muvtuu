@@ -13,4 +13,7 @@ validates_attachment_content_type :image, :content_type => %w(image/jpeg image/j
 :path => ":style/:id_:filename"
 validates :name, :price, :description, presence: true
 validates :price, numericality: { greater_than: 0}
+
+belongs_to :user
+
 end
