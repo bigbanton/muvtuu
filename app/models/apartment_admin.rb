@@ -1,0 +1,2 @@
+class ApartmentAdmin < User
+end

@@ -79,7 +79,7 @@ end
       params.require(:listing).permit(:name, :description, :price, :image)
     end
     def check_user
-      if current_user != @listing.user_id
+      if current_user.id != @listing.user_id
         redirect_to root_url, alert: "Sorry this listing belongs to someone else"
       end
     end

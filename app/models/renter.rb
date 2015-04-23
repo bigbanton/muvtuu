@@ -1,0 +1,2 @@
+class Renter < User
+end

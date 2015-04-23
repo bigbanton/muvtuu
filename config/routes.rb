@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
-  devise_for :users
+  devise_for :users,
+  controllers: {
+    registrations: "devise_custom/registrations"
+  }
   resources :listings
 
   get 'pages/about'
