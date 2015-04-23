@@ -17,7 +17,11 @@ gem 'devise'
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 group :development, :test do
   gem 'sqlite3'
+  gem 'byebug'
 end
 group :production do
   gem 'pg'
 end
+
+gem 'better_errors'
+gem 'binding_of_caller'
